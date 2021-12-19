@@ -1,0 +1,12 @@
+﻿int A = 10;
+int B = 80;
+int C = 30;
+int D = 20;
+int E = 600;
+int Max = A;
+if (B > Max) Max = B;
+if (C > Max) Max = C;
+if (D > Max) Max = D;
+if (E > Max) Max = E;
+Console.Write("Max = ");
+Console.WriteLine(Max);
